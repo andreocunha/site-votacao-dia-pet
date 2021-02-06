@@ -1,0 +1,220 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.areapropostas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media(max-width: 600px) {
+    .areaproposta{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }    
+}
+
+.proposta{
+    background-color: #F0F0F5;
+    border:none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #3E3E3E;
+    font-size: 18px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tituloproposta{
+    margin: 0;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 3px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.estatisticas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.areaGraficoxx{
+    background-color: #F0F0F5;
+    border:none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #3E3E3E;
+    font-size: 18px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    width:600px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.areaGrafico{
+    align-items: center;
+    background-color: #F0F0F5;
+    border:none;
+    border-radius: 5px;
+    color: #3E3E3E;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    font-size: 18px;
+    height: 350px;
+    max-width:500px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.total{
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.infousuario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nome{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+}
+
+.botaosugestao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.botao,.botaoiniciar,.botaoencerrar {
+    opacity: 0.7;
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border-width: 0;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.botao:hover,.botaoiniciar:hover,.botaoencerrar:hover {
+    opacity: 1;
+    box-shadow: 0px 15px 20px rgba(24, 23, 23, 0.4);
+}
+
+.botao{
+    background-color: #00CFBA;
+}
+
+.botaoiniciar{
+    background-color: #00CF15;
+    margin-right: 20px;
+}
+
+.botaoencerrar{
+    background-color: #CF0000;
+}
+
+.areaAdminSugestoes{
+    border-radius: 10px;
+    margin-bottom: 15px;
+    max-width: 500px;
+    width: 100%;
+    max-height: 400px;
+}
+
+.containerSugestoes{
+    background-color:#F0F0F5 ;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.itemSugestao{
+    background-color: #00CFBA;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    height: 3rem;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botaoRemoveSugestao{
+    background-color: #f33f3f;
+    border-radius: 15px 0 0 15px;
+    width: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.nomeSugestao{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.botaoVerSugestao{
+    background-color: #00B6A3;
+    border-radius: 0 15px 15px 0;
+    width: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+  
+.containerCheckbox {
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+  }
